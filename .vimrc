@@ -16,6 +16,9 @@ set wildignore=*.o,*.pyc,*.exe,*.bak,*.swp,*.db
 set ignorecase
 set smartcase
 
+" load pathogen
+call pathogen#runtime_append_all_bundles()
+
 " from http://vim.wikia.com/wiki/VimTip1628
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
